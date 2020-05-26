@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scrambled Words</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/data.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-sm p-0 border-bottom animated zoomIn slower">
+		<div class="container">
+			<a href="index.html" class="navbar-brand text-primary font-weight-bolder">Scrambled Words</a>
+			
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+			<div class="collapse navbar-collapse" id="main-nav">
+			<ul class="navbar-nav">
+				<li class="nav-item mx-2 animated pulse infinite delay-1s fast"><a href="#" class="nav-link"><i class="fa fa-twitter text-danger fa-2x"></i></a></li>
+				<li class="nav-item mx-2 animated pulse infinite delay-2s fast"><a href="#" class="nav-link"><i class="fa fa-linkedin text-danger fa-2x"></i></a></li>
+				<li class="nav-item mx-2 animated pulse infinite delay-3s fast"><a href="mailto:dhulswar591@gmail.com" class="nav-link"><i class="fa fa-envelope text-danger fa-2x"></i></a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<section id="showcase" class='animated slideInLeft'>
+		<div class="container p-5">
+			<h3 class="display-4 text-white text-right animated zoomIn delay-1s">Scrambled Word</h3>
+			<p class="animated slide lead text-light text-right zoomIn delay-2s">This Game is <span class="text-success">good</span> for your quick brain reliefs because that draws your <span class="text-warning">attention</span> to play the game.</p>
+			<p class="lead animated slide lead text-light text-center zoomIn delay-2s">
+				I had a plan of building puzzle word game about 3-4 weeks ago but i thought lot on how to mixup the letters in word......  
+			</p>
+			<p class="lead animated slide lead text-light text-right zoomIn delay-2s">
+				Finally When I was taking a bath, An Algorithm suddenly came into my mind but it's not the perfect solution to that problem.  
+			</p>
+
+			<p class="lead animated slide lead text-light text-right zoomIn delay-2s">
+				Finally..I Got to know that... all is about Data Structure and Algorithm.  
+			</p>
+			<p class="animated slide lead text-light font-weight-bolder text-right zoomIn delay-2s">Click the button below to start the <span class="text-warning">Game</span></p>
+			
+			<div class="text-right">
+				<a id="playGameBtn" href="#game" class="animated zoomIn delay-3s btn btn-warning font-weight-bolder">Play Game</a>
+			</div>
+			<div class="text-n animated zoomIn delay-5s">
+				<span class="text-warning font-weight-bolder"><i class="fa fa-phone pr-2"></i>9483376591</span>
+			</div>
+		</div>
+	</section>
+	
+	<section id="game" class="animated fadeIn delay-5s bg-light p-3" >
+		<div class="container my-5">
+		<p class="text-center display-4 text-primary">Hey! <span id="playerName"></span> Let's Play a Game Now!</p>
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 border-bottom border-secondary">
+					<h4 class="text-center text-warning mb-3">Correct The word</h4>
+						<div class="form-group">
+							<input type="text" name="" id="scramText" class="form-control form-control-lg" placeholder="O L L E H D O R L W" readonly>
+						</div>
+					</div>				
+				</div>
+					</div>				
+			</div>
+			
+			<div class="row my-5">
+				<div class="col-sm-12 col-md-12 col-lg-12 border-bottom border-secondary">
+					<h4 class="text-center text-primary mb-3">Type In Your Word!</h4>
+						<div class="form-group">
+							<input type="text" name="" id="corText" class="form-control form-control-lg" placeholder="H E L L O W O R L D" required>
+						</div>
+					</div>
+			</div>
+			
+			<button id="check" class="btn btn-block btn-warning font-weight-bolder mb-5">Check</button>
+
+			<a id="bottomBtn" href="#showcase" class="btn btn-lg btn-danger "><i class="fa fa-caret-up"></i></a>
+
+			<div id="displayScore" class="">
+				<h6 id="gameScore" class="">score</h6>
+			</div>
+			
+		</div>
+	</section>
+	
+
+	<section id="readMore" class="my-5">
+		<div class="container">
+			<p class="lead text-right">
+				To build this game i thought lot, lot on how to mix-up the characters in a word but never thought about any Data Structure except Strings.
+			</p>
+			<p class="lead text-right">
+				But it was not much hard to mix-up the words. To mix up the word you have to know Array DataStructure very-Well, Very-Very-Well........(Note: All Game is built on this).
+			</p>
+			<h6 class="display-4 text-right my-5">Thank You vist Again!</h6>
+		</div>
+	</section>
+	
+	<footer class="bg-dark p-5">
+		<div class="container p-5">
+			<p class="text-secondary text-center">&copy; Designed by Darshan</p>
+		</div>
+	</footer>
+	<!-- <script src="js/jquery/jquery.js"></script> -->
+	<!-- <script src="js/popper.js"></script> -->
+	<script src="js/bootstrap.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
